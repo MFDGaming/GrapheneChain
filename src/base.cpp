@@ -110,9 +110,6 @@ void userActions() {
             cout << newTransaction;
             cout << "\n";//throws serror if amount is a string i think i need to fix that later
         }
-        if (input =="netTest") {
-            chain.netTest();
-        }
     }
 }
 
