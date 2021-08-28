@@ -7,7 +7,6 @@
 #include <algorithm>
 #include <ctime>
 #include <fstream>
-#include "net/server.c"
 using namespace std;
 
 BlockChain::BlockChain() {
@@ -223,9 +222,4 @@ string BlockChain::getBlockChain() {
 
 ostream& operator<<(ostream& out, BlockChain& b) {
     return out << b.toString();
-}
-
-void BlockChain::netTest() {
-    // server data == "test"
-    server();
 }
