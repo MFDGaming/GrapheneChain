@@ -28,6 +28,8 @@
 #include "transaction.h"
 #include "block.h"
 
+#include "net/server.h"
+
 
 
 #include <time.h>
@@ -115,6 +117,7 @@ void userActions() {
 }
 
 int main() {
+    server *srv = new server("0.0.0.0", 19132);
 //    cout << "\033[31;1;7;37mBase Start\033[0m\n";
     cout << "Base Start\n"; //for some reason i cant get colors to work
 //    cout << "\033[1;31mbold red text\033[0m\n";

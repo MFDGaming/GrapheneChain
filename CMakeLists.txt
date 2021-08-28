@@ -26,7 +26,16 @@ add_executable(GrapheneChain
         src/blockChain.cpp
         src/blockChain.h)
 add_executable(GrapheneChain
-        src/net/server.c
-        src/net/client.c)              
+        src/net/server.cpp
+        src/net/server.h)
+add_executable(GrapheneChain
+        src/net/utils/address.cpp
+        src/net/utils/address.h)    
+add_executable(GrapheneChain
+        src/net/utils/binary_stream.cpp
+        src/net/utils/binary_stream.h)
+add_executable(GrapheneChain
+        src/net/utils/udpServerSocket.cpp
+        src/net/utils/udpServerSocket.h)
 
 
