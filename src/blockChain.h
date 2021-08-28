@@ -83,8 +83,6 @@ public:
     string toString();
 
     string getBlockChain();
-
-    void netTest();
 };
 
 ostream& operator<<(ostream& out, BlockChain& b);
