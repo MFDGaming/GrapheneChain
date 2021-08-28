@@ -17,7 +17,7 @@
 #include "binary_stream.h"
 
 #include <iostream>
-#include <cstring.h>
+#include <cstring>
 
 #ifdef _WIN32
 
